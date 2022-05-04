@@ -2,8 +2,8 @@
 // var name = window.prompt("Your name");
 //    window.alert("your name letter's length is " + name.length);
 //STEP 2
-// var name = window.prompt("Your name");
-// window.alert("first letter of your name unicode is  " + name.charCodeAt(0));
+var name = window.prompt("Your name");
+window.alert("first letter of your name unicode is  " + name.charCodeAt(0));
 //STEP 3
 // var fName = window.prompt("Your first name");
 // var lName = window.prompt("Your last name");

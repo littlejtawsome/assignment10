@@ -41,7 +41,7 @@
 // console.log(getdayName(yesterDay));
 
 
-// try 2
+//// try 2
 // let d = new Date();
 // let dayNum = d.getDay();
 // let yesterDay = d.getDay() - 1 ;
@@ -53,6 +53,28 @@
 // console.log(getdayName(dayNum)- getdayName(dayNum -1));
 // console.log(getdayName(dayNum - 1));
 
+////try3
+// trish4
+// let dayNames = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+
+// let now = new Date();
+// document.write(dayNames[now.getDay()==0?6:now.getDay()-1] );
+
+
+// let date = new Date()
+// let today = date.getDay() +1; 
+// switch (today) {  
+//     case 1: today = 'Sunday'; break;
+//     case 2: today = 'Monday'; break;
+//     case 3: today = 'Tuesday'; break;
+//     case 4: today = 'Wednesday'; break;
+//     case 5: today = 'Thursday'; break;
+//     case 6: today = 'Friday'; break;
+//     case 7: today = 'Saturday'; break;
+
+//     default: break;
+// }
+// console.log(today.charAt(0));
 
 
 
@@ -70,3 +92,5 @@
 
 // }
 // console.log(dayNames.slice(0) );
+
+
